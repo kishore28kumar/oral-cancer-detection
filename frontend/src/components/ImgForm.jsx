@@ -18,14 +18,14 @@ export default function ImgForm() {
     fd.append("file", file);
 
     axios
-      .post(" http://127.0.0.1:5000", fd, {
+      .post(" http://127.0.0.1:5000/predict", fd, {
         onUploadProgress: (progressEvent) =>
           console.log(progressEvent.progress * 100),
       })
       .then((res) => {
         console.log(res.data.prediction);
         localStorage.setItem("resultVal", res.data.prediction);
-        navigate("/predict");
+        navigate("/result");
       })
       .catch((err) => console.error(err));
     console.log();

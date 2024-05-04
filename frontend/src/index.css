@@ -85,6 +85,33 @@
   width: 200px;
 }
 
+/* Result Page */
+
+.rslt .navigate-btn {
+  height: 40px;
+  width: 200px;
+  font-size: 1.25rem;
+  text-align: center;
+  background-color: rgb(12, 172, 172);
+  color: #fff;
+}
+
+.rslt .navigate-btn:hover {
+  color: rgb(12, 172, 172);
+  border: 1px solid rgb(12, 172, 172);
+}
+
+.message img {
+  max-width: 540px;
+  height: 540px;
+}
+.message h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+.message p {
+  font-size: 1.5rem;
+}
 /* Media Query */
 @media only screen and (max-width: 432px) {
   .rnav {

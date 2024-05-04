@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./page/Home";
-// import Result from "./page/Result";
+import Result from "./page/Result";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
       <Routes>
           <Route path="/" element={<Home />} /> 
-          {/* <Route path="/predict" element={<Result />} />     */}
+          <Route path="/result" element={<Result />} />    
           </Routes>
       </BrowserRouter>
       </div>
