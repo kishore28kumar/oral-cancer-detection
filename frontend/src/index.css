@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Jaini&family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+.main {
+  font-family: Mukta;
+  font-size: 1rem;
+}
+
+/* Navbar Section*/
+.logo {
+  height: 35px;
+  width: 200px;
+}
+
+.rnav .github-btn {
+  display: block;
+  height: 40px;
+  width: 120px;
+  font-size: 1.25rem;
+  text-align: center;
+  background-color: rgb(12, 172, 172);
+  color: #fff;
+  margin-left: 1rem;
+}
+
+.rnav a {
+  text-decoration: none;
+}
+
+.rnav .github-btn:hover {
+  color: rgb(12, 172, 172);
+  border: 1px solid rgb(12, 172, 172);
+}
+/* Hero Section */
+.hero {
+  margin: 1rem 0;
+}
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  padding-bottom: 0.75rem;
+}
+
+.title {
+  color: rgb(12, 172, 172);
+}
+
+.hero p {
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+}
+
+/* Image Form */
+
+.imgf .upload-btn {
+  height: 40px;
+  width: 125px;
+}
+
+.imgf input {
+  height: 40px;
+  width: 125px;
+}
+
+.imgf label {
+  color: rgb(12, 172, 172);
+  border: 1px solid rgb(12, 172, 172);
+}
+
+.imgf button {
+  background-color: rgb(12, 172, 172);
+  color: #fff;
+}
+
+.imgf label:hover {
+  background-color: rgb(12, 172, 172);
+  color: #fff;
+}
+
+.imgf button:hover {
+  color: rgb(12, 172, 172);
+  border: 1px solid rgb(12, 172, 172);
+}
+
+.imgf .Uploaded-img {
+  height: 200px;
+  width: 200px;
+}
+
+/* Result Page */
+
+.rslt .navigate-btn {
+  height: 40px;
+  width: 200px;
+  font-size: 1.25rem;
+  text-align: center;
+  background-color: rgb(12, 172, 172);
+  color: #fff;
+}
+
+.rslt .navigate-btn:hover {
+  color: rgb(12, 172, 172);
+  border: 1px solid rgb(12, 172, 172);
+}
+
+.message img {
+  max-width: 540px;
+  height: 540px;
+}
+.message h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+.message p {
+  font-size: 1.5rem;
+}
+/* Media Query */
+@media only screen and (max-width: 432px) {
+  .rnav {
+    display: none;
+  }
+}
