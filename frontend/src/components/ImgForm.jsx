@@ -18,7 +18,7 @@ export default function ImgForm() {
     fd.append("file", file);
 
     axios
-      .post(" http://127.0.0.1:5000/predict", fd, {
+      .post("https://oral-cancer-backend-1.onrender.com/predict", fd, {
         onUploadProgress: (progressEvent) =>
           console.log(progressEvent.progress * 100),
       })
