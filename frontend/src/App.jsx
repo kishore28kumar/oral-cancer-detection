@@ -6,12 +6,12 @@ function App() {
   return (
     <main>
       <div className="main">
-      <BrowserRouter>
-      <Routes>
-          <Route path="/" element={<Home />} /> 
-          <Route path="/result" element={<Result />} />    
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/result" element={<Result />} />
           </Routes>
-      </BrowserRouter>
+        </BrowserRouter>
       </div>
     </main>
   );
