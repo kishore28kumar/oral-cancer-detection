@@ -40,10 +40,18 @@ start the frontend server
 
 ## Screenshots
 
+![image](https://github.com/kishore28kumar/oral-cancer-detection/assets/139374121/72208b47-db1b-4452-8cc7-1f0921b4e55a)
+
+![image](https://github.com/kishore28kumar/oral-cancer-detection/assets/139374121/334b747e-a8b6-474c-a345-22b3362e14f8)
+
+![image](https://github.com/kishore28kumar/oral-cancer-detection/assets/139374121/82dab384-844f-48bf-92d3-d6a97ed072b7)
+
+
 
 
 
 ## Accuracy
 
+![Model_Accuracy](https://github.com/kishore28kumar/oral-cancer-detection/assets/139374121/5078f98d-86e7-482d-82d7-c942220bd37f)
 
 
